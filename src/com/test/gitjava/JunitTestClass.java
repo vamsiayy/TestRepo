@@ -6,9 +6,12 @@ import org.junit.jupiter.api.Test;
 
 class JunitTestClass {
 
+	
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		
+		com.test.gitjava.TestClass test1 = new com.test.gitjava.TestClass();
+		assert(test1.methodToTest1());
 	}
 
 }
